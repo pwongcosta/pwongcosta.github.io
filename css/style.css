@@ -12,14 +12,8 @@
    
 );
 }
-@import 'link href="https://fonts.googleapis.com/css?family=Merriweather';
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Permanent+Marker');
 
-/*@font-face {
-    font-family: 'Neuton';
-    src: url("https://fonts.googleapis.com/css?family=Neuton");
-    font-weight: normal;
-    font-style: normal;);
-}*/
 
 @font-face {
     font-family: 'latolight';
@@ -74,8 +68,8 @@ button {outline: none; border: none; box-shadow: none; background: none;}
 .swiper-container{margin:0 auto; height: inherit; width: 100%; position:relative;-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-o-backface-visibility:hidden;backface-visibility:hidden; overflow: hidden;}.swiper-wrapper{position:relative;width:100%; -webkit-transition-property:-webkit-transform,left,top;-webkit-transition-duration:0s;-webkit-transform:translate3d(0px,0,0);-webkit-transition-timing-function:ease;-moz-transition-property:-moz-transform,left,top;-moz-transition-duration:0s;-moz-transform:translate3d(0px,0,0);-moz-transition-timing-function:ease;-o-transition-property:-o-transform,left,top;-o-transition-duration:0s;-o-transform:translate3d(0px,0,0);-o-transition-timing-function:ease;-o-transform:translate(0px,0px);-ms-transition-property:-ms-transform,left,top;-ms-transition-duration:0s;-ms-transform:translate3d(0px,0,0);-ms-transition-timing-function:ease;transition-property:transform,left,top;transition-duration:0s;transform:translate3d(0px,0,0);transition-timing-function:ease;}.swiper-free-mode>.swiper-wrapper{-webkit-transition-timing-function:ease-out;-moz-transition-timing-function:ease-out;-ms-transition-timing-function:ease-out;-o-transition-timing-function:ease-out;transition-timing-function:ease-out;margin:0 auto;}.swiper-wp8-horizontal{-ms-touch-action:pan-y;}.swiper-wp8-vertical{-ms-touch-action:pan-x;}
 .swiper-slide{position:relative; float: left;}
 
-h1 {font-family:'Merriweather'; font-size: 48px; font-weight: 300; line-height: 50px; letter-spacing: 5px;}
-h2 {font-family:'Merriweather';font-size: 36px; line-height: 42px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
+h1 {font-family:'Permanent Marker'; margin-top: 10px; font-size: 37px; font-weight: 300; line-height: 30px; letter-spacing: 2px;}
+h2 {font-family:'Permanent Marker', serif;font-size: 38px; line-height: 42px; font-weight: 300; text-transform: uppercase; letter-spacing: 3px;}
 h3 {font-size: 24px; line-height: 28px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
 h4 { font-size: 18px; line-height: 22px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
 h5 {font-size: 14px; line-height: 22px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
@@ -127,7 +121,7 @@ nav > ul > li:last-child .dropmenu {right: 0%; left: auto;}
 nav > ul > li:last-child .dropmenu li {text-align: right;}
 
 .logo {position: relative; float: left; margin: 17px 0px 0px 50px; transition:all .2s ease-out;-webkit-transition:all .2s ease-out;-moz-transition:all .2s ease-out;-ms-transition:all .2s ease-out;}
-.logo a {font-family:'Neuton', serif; color: #000;font-size: 20px; line-height: 26px; text-align: center; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
+.logo a {font-family:'Permanent Marker'; color: #000;font-size: 20px; line-height: 26px; text-align: center; font-weight: 500; text-transform: uppercase; letter-spacing: 2px;}
 
 /*---burger menu---*/
 
@@ -213,7 +207,7 @@ footer {position: relative; text-align: center; float: left; width: 100%; backgr
 .skill {position: relative; width: 100%; margin-top: -10px;}
 .about-item h4 {padding-bottom: 15px; font-size: 16px;}
 .about-us h1 {padding-bottom: 10px;}
-.about-us h2 {font-family: 'Merriweatherh1'}
+.about-us h2 {font-family: 'Crimson'}
 .about-us p {padding: 10px 0px 8px; color: #999;}
 .team-block {position: relative; float: left; overflow: hidden; width: 100%; padding-bottom: 40px;}
 .team-block img {width: 100%; height: auto;}
@@ -360,7 +354,7 @@ footer {position: relative; text-align: center; float: left; width: 100%; backgr
 .adress-block ul {padding-top: 10px;}
 .adress-block ul li {font-size: 14px; color: #222; line-height: 24px; font-weight: 300;}
 
-.main-title {position: absolute; left: 50%; top: 50%; transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%); background: rgba(255,255,255,0.9); padding: 80px; text-align: center; outline: 1px solid #fff; outline-offset: 8px;}
+.main-title {position: absolute; left: 50%; top: 67%; transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%); background: rgba(255,255,255,0.9); padding: 80px; text-align: center; outline: 1px solid #fff; outline-offset: 8px;}
 .main-title.title-no-bg {background: none; outline: none; width: 100%;} 
 .main-title.title-no-bg h1 {padding-bottom: 30px; letter-spacing: 7px;}
 .main-title h2 {padding-bottom: 10px; letter-spacing: 5px;}
@@ -677,7 +671,7 @@ accordion > dt > a:after {content: "\f107";width: 15px;height: 15px;margin-top: 
 .fixed-detail-txt h3 {padding-bottom: 35px; font-weight: 400; font-family: 'latoregular';}
 .fixed-detail-txt p {color: #999;}
 .fixed-detail-txt {width: 100%; margin-bottom: 20px; padding: 35px 15px 35px 25px;}
-.fixed-detail-txt span {font-size: 16px; text-transform: capitalize; font-weight: 300; display: block; padding-bottom: 8px;}
+.fixed-detail-txt span {font-size: 18px;  font-weight: 300; display: block; padding-bottom: 8px;}
 .fixed-detail-txt h5 {text-transform: capitalize; padding-bottom: 25px;}
 .fixed-detail-txt *:last-child {padding-bottom: 0px;}
 
