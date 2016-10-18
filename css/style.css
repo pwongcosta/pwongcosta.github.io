@@ -70,7 +70,7 @@ button {outline: none; border: none; box-shadow: none; background: none;}
 
 h1 {font-family:'Permanent Marker'; margin-top: 10px; font-size: 37px; font-weight: 300; line-height: 30px; letter-spacing: 2px;}
 h2 {font-family:'Permanent Marker', serif;font-size: 38px; line-height: 42px; font-weight: 300; text-transform: uppercase; letter-spacing: 3px;}
-h3 {font-size: 24px; line-height: 28px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
+h3 {font-family:'Permanent Marker';font-size: 20px; line-height: 28px; font-weight: 300; text-transform: uppercase; letter-spacing: 3px;}
 h4 { font-size: 18px; line-height: 22px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
 h5 {font-size: 14px; line-height: 22px; font-weight: 300; text-transform: uppercase; letter-spacing: 5px;}
 h6 {font-size: 13px; line-height: 16px; font-weight: 300; text-transform: uppercase; letter-spacing: 2px;}
@@ -354,10 +354,10 @@ footer {position: relative; text-align: center; float: left; width: 100%; backgr
 .adress-block ul {padding-top: 10px;}
 .adress-block ul li {font-size: 14px; color: #222; line-height: 24px; font-weight: 300;}
 
-.main-title {position: absolute; left: 50%; top: 67%; transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%); background: rgba(255,255,255,0.9); padding: 80px; text-align: center; outline: 1px solid #fff; outline-offset: 8px;}
+.main-title {position: absolute; left: 17%; top: 130%; transform: translateX(-50%) translateY(-50%);-webkit-transform: translateX(-50%) translateY(-50%);-moz-transform: translateX(-50%) translateY(-50%);-ms-transform: translateX(-50%) translateY(-50%); background: rgba(255,255,255,0.9); padding: 80px; text-align: center; outline: 1px solid #fff; outline-offset: 8px;}
 .main-title.title-no-bg {background: none; outline: none; width: 100%;} 
-.main-title.title-no-bg h1 {padding-bottom: 30px; letter-spacing: 7px;}
-.main-title h2 {padding-bottom: 10px; letter-spacing: 5px;}
+.main-title.title-no-bg h1 {padding-bottom: 30px; letter-spacing: 3px;}
+.main-title h2 {padding-bottom: 10px; letter-spacing: 2px;}
 
 
 .skill-block {position: relative; float: left; width: 100%; height: 20px; margin: 10px 0px;}
