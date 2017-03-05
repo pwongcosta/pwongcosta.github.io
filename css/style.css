@@ -14,6 +14,9 @@
 }
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Permanent+Marker');
 
+#loading {
+    position: absolute; width: 100%; height: 100%; background: url('loading.gif') no-repeat center center;
+}
 
 @font-face {
     font-family: 'latolight';
