@@ -70,7 +70,7 @@
 								<a href="about.php">About me</a>
 							</li>
 							<li class="site-main__nav__item">
-								<a href="http://zlaneservices.com/yelvy/contact.php">Contact</a>
+								<a href="contact.html">Contact</a>
 							</li>
 						</ul>
 					</nav>
