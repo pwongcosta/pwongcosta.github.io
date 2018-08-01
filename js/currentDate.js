@@ -1,16 +1,3 @@
-// var today = new Date();
-// var options = {
-//   weekday: "long",
-//   year: "numeric",
-//   month: "long",
-//   day: "numeric"
-// };
-
-// document.getElementById("cur-date").innerText = today.toLocaleDateString(
-//   "en-US",
-//   options
-// );
-
 function showTime() {
   var date = new Date();
   var h = date.getHours(); // 0 - 23
