@@ -21,19 +21,15 @@
 	<header class="site-header">
 		<div class="top-navigaton-section">
 			<div class="custom-container">
-
-
 				<div class="left-nav">
 					<ul>
 						<li>
 							<?php date_default_timezone_set('America/Los_Angeles'); ?>
-							<a href="#">
-								<?php echo date("l"); ?>
-							</a>
+							<a href="#" id="cur-date"></a>
 							<br/>
-							<a href="#">
-								<?php echo date("g:i a"); ?> in San Francisco</a>
-
+							<a href="#" id="cur-time">
+								in San Francisco
+							</a>
 						</li>
 
 					</ul>
@@ -433,6 +429,7 @@
 
 	</script>
 	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/currentDate.js"></script>
 </body>
 
 </html>
